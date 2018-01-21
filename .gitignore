@@ -1,0 +1,47 @@
+.DS_Store
+**/sdk.iml
+**/users.iml
+**.idea
+**.iml
+target
+target/*
+**/docker/scm-source.json
+**/LOG_HOME_IS_UNDEFINED
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# exclude jar for gradle wrapper
+!gradle/wrapper/*.jar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# build files
+**/target
+target
+.gradle
+build
+
+# where sqllite libraries are installed for embedded dyanmodb for tests.
+**/native-libs
+
+# Deployment docker generated files
+aws/docker-run/eng/build.properties
+aws/docker-run/eng/Dockerrun.aws.json
+aws/docker-run/eng/build.properties
+aws/docker-run/eng/Dockerrun.aws.json
+
+aws/docker-run/eng/*.zip
+aws/docker-run/prod/*.zip
+.classpath
+.externalToolBuilders
+.project
+.settings
